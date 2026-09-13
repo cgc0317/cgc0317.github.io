@@ -19,6 +19,26 @@
         * {
             box-sizing: border-box;
         }
+        .contact {
+            margin-top: 25px;
+            display: flex;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 8px;
+
+            color: var(--muted);
+            font-size: 0.98rem;
+        }
+
+        .contact a {
+            color: var(--accent);
+            font-weight: 500;
+        }
+
+        .separator {
+            color: #98a2b3;
+            margin: 0 3px;
+        }
         body {
             margin: 0;
             font-family:
@@ -271,20 +291,17 @@
             Tsinghua University
         </div>
 
-        <div class="links">
-
-            <!-- 修改成你的清华邮箱 -->
-            <a class="button primary"
-               href="mailto:YOUR_EMAIL@mails.tsinghua.edu.cn">
-                Email
+        <div class="contact">
+            <span>Email:</span>
+            <a href="mailto:zgc25@mails.tsinghua.edu.cn">
+                zgc25@mails.tsinghua.edu.cn
             </a>
 
-            <a class="button"
-               href="https://github.com/cgc0317"
-               target="_blank">
+            <span class="separator">·</span>
+
+            <a href="https://github.com/cgc0317" target="_blank">
                 GitHub
             </a>
-
         </div>
 
     </header>
